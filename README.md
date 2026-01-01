@@ -23,11 +23,12 @@ SomeHelper::doSomething();
 ```
 
 ### Enums
-
+ 
 ```php
-use DanielPetrica\LaravelUtils\Enums\SomeEnum;
-
-SomeEnum::Value;
+use DanielPetrica\LaravelUtils\Enums\TTLEnum;
+ 
+TTLEnum::OneHour->value; // 3600
+TTLEnum::OneHour->getSeconds(); // 3600
 ```
 
 ## Guidelines

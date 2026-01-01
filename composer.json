@@ -1,8 +1,8 @@
 {
     "name": "danielpetrica/laravel-utils",
     "description": "A list of utils I use in all my new projects.",
+    "type": "library",
     "keywords": [
-        "Daniel Petrica",
         "laravel",
         "laravel-utils"
     ],
